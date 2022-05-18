@@ -1,0 +1,2 @@
+var local = window.prompt ('De qual estado você esta acessando a este site?')
+ local == 'Distrito Federal' ? (window.prompt ('qual serviço estas a precisar?')) : (window.alert ('Infelizmente não atendemos neste estado!'))
