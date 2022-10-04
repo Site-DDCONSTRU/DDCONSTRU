@@ -1,1 +1,42 @@
 @charset "UTF-8";
+
+:root {
+    --cor0: yellow;
+    --cor1: rgb(255, 255, 160);
+    --cor2: black;
+    --cor3: white;
+     
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+
+nav {
+    background-color: var(--cor0);
+    padding: 18px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    
+}
+
+nav > a {
+    color: var(--cor2);
+    padding: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+header {
+    min-height: 200px;
+    text-align: center;
+    padding-top: 0px;
+}
